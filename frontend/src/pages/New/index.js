@@ -16,6 +16,7 @@ export default function New({ history }) {
 
   async function handleSubmit({ event }) {
     event.preventDefault();
+
     const data = new FormData();
     const user_id = localStorage.getItem('user');
 
